@@ -1,0 +1,7 @@
+spec:
+  ports:
+    - name: web
+      nodePort: 31644
+      port: 80
+      protocol: TCP
+      targetPort: 80
